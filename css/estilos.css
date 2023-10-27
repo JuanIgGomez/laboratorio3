@@ -24,12 +24,12 @@ header div a img{
     height: 90px;
     padding: 0;
 }
+ul ul{
+    z-index: 4;
+}
 ul {
     list-style: none;
     padding: 0;
-}
-ul ul{
-    z-index: 4;
 }
 ul li {
     position: relative;
