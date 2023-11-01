@@ -76,34 +76,22 @@ article {
 	padding-right: 2%;
 	padding-bottom: 1%;
 	padding-left: 2%;
-    /*border: 0.3vw solid rgb(154, 184, 150);*/
     display: flex;
-    
+    align-items: left;  
 }
-/*article div{
-    
-    height: 375px;
-}*/
 article div img{
     width: 250px;
     height: 100%;
-    border: 0.3vw solid rgb(154, 184, 150);
 }
-article div h4{
-    padding-top: 1%;
-	padding-right: 1%;
-	padding-bottom: 1%;
-	padding-left: 1%;
-    text-align: left;
+article div h2{
+    text-align: left; 
+    padding: 1% 1%;
     font-size: 45px;
     color: #ffffff;
 }
 article div p{
-    padding-top: 1%;
-	padding-right: 1%;
-	padding-bottom: 1%;
-	padding-left: 1%;
-    text-align: left;
+    text-align: left; 
+    padding: 1% 1%;
     font-size: 23px;
     color: #ffffff;
 }
@@ -115,9 +103,7 @@ footer {
 	padding-bottom: 1%;
 	padding-left: 2%;
     background-color: #55c049;
-    
 }
-
 footer img {
     width: 50px;
     height: 50px;
@@ -125,18 +111,18 @@ footer img {
 }
 
 @media screen and (max-width: 480px){
-    article div img{
-        width: 250px;
-        height: 375px;
-        border: 0.3vw solid rgb(154, 184, 150);
+    
+    article div .tempos{
+        width: 300px;
+        height: 400px;
     }
     article {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: left;
     }
-    article div h4{
-        text-align: center;
+    article div h2{
+        text-align: center; 
     }
 }
