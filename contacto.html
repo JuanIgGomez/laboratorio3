@@ -8,21 +8,22 @@
         <link href="css/lightbox.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@1,300&display=swap" rel="stylesheet">
         <link rel="icon" href="imagenes/ico-log/espanollog.png">
-        <title>Contacto</title>
+        <title>Contacto</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     </head>
 
     <body>
 
         <header>
-            <div>
-                <a href="index.html" class="logo"><img src="imagenes/ico-log/espanollog.png" alt="Logo HDA"></a>
-            </div>
-            <nav>
-                <ul>
+            
+            <a href="index.html"><img class="logo" src="imagenes/ico-log/espanollog.png" alt="Logo HDA"></a>
+            <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>    
+            <nav class="nav" id="nav">
+                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button> 
+                <ul class="nav-list">
                     <li><a href="index.html">Inicio</a></li>
-                    <li>
-                        <a href="#">Personajes</a>
-                        <ul>
+                    <li class="dropdown">
+                        <a href="#" class="anidado">Personajes</a>
+                        <ul class="dropdown-menu">
                             <li><a href="perprin.html">Personajes Principales</a></li>
                             <li><a href="persecun.html">Personajes Secundarios</a></li>
                         </ul>
@@ -33,9 +34,10 @@
                     <li><a href="contacto.html">Contacto</a></li>   
                 </ul>
             </nav>
-
+            
         </header>
         <section>
+            <h1>Contacto</h1>
             <form action="formulario.php" method="post">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
@@ -54,6 +56,19 @@
         </footer>
 
         <script src="js/lightbox-plus-jquery.js"></script>
+        <script type="text/javascript">
+            const nav = document.querySelector("#nav");
+            const abrir = document.querySelector("#abrir");
+            const cerrar = document.querySelector("#cerrar");
+            
+            abrir.addEventListener("click", () => {
+                 nav.classList.add("visible");
+            })
+            cerrar.addEventListener("click", () => {
+                 nav.classList.remove("visible");
+            })
+ 
+         </script>
     </body>
 
 </html>

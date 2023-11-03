@@ -8,21 +8,22 @@
     <link href="css/lightbox.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="icon" href="imagenes/ico-log/espanollog.png">
-    <title>Temporadas</title>
+    <title>Temporadas</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
     <body>
 
         <header>
-            <div>
-                <a href="index.html" class="logo"><img src="imagenes/ico-log/espanollog.png" alt="Logo HDA"></a>
-            </div>
-            <nav>
-                <ul>
+            
+            <a href="index.html"><img class="logo" src="imagenes/ico-log/espanollog.png" alt="Logo HDA"></a>
+            <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>    
+            <nav class="nav" id="nav">
+                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button> 
+                <ul class="nav-list">
                     <li><a href="index.html">Inicio</a></li>
-                    <li>
-                        <a href="#">Personajes</a>
-                        <ul>
+                    <li class="dropdown">
+                        <a href="#" class="anidado">Personajes</a>
+                        <ul class="dropdown-menu">
                             <li><a href="perprin.html">Personajes Principales</a></li>
                             <li><a href="persecun.html">Personajes Secundarios</a></li>
                         </ul>
@@ -33,99 +34,128 @@
                     <li><a href="contacto.html">Contacto</a></li>   
                 </ul>
             </nav>
-
+            
         </header>
 
         <section>
-
+            <h1>Temporadas</h1>
             <article>
                 <div>
-                    <a href="imagenes/tempo/temp1.jpg" data-lightbox="socotroco" data-title="My caption"><img src="imagenes/tempo/temp1.jpg" alt="Dulce Princesa" class="tempos"></a>
+                    <a href="imagenes/tempo/temp1.jpg" data-lightbox="socotroco" data-title="Temporada 1"><img src="imagenes/tempo/temp1.jpg" alt="Dulce Princesa" class="tempos"></a>
                 </div>
                 <div>
                     <h2>Temporada 1</h2>
-                    <p>Consta de 26 episodios, transmitidos originalmente desde abril hasta octubre de 2010. En esta temporada, Finn y Jake se enfrentan a diversas aventuras, como el experimento fallido de la Dulce Princesa para revivir a la Dulce Gente muerta, y el viaje al extraño Espacio Grumoso para curar a Jake.</p>
+                    <p>La Primera Temporada consta de <strong>26 episodios</strong>. Se transmitió originalmente a partir del 5 de Abril de 2010 hasta mediados 
+                        de octubre del mismo año.</p>
                 </div>
             </article>
             <article>
                 <div>
-                    <a href="imagenes/tempo/temp2.jpg" data-lightbox="socotroco" data-title="My caption"><img src="imagenes/tempo/temp2.jpg" alt="Dulce Princesa" class="tempos"></a>
+                    <a href="imagenes/tempo/temp2.jpg" data-lightbox="socotroco" data-title="Temporada 2"><img src="imagenes/tempo/temp2.jpg" alt="Dulce Princesa" class="tempos"></a>
                 </div>
                 <div>
                     <h2>Temporada 2</h2>
-                    <p> Esta temporada también consta de 26 episodios, transmitidos desde octubre de 2010 hasta mayo de 2011. En esta temporada, Jake y Finn continúan sus aventuras, apoyándose incondicionalmente y pasando el día riendo y haciendo bromas.</p>
+                    <p>Consta de <strong>26 episodios</strong>. Se transmitió originalmente a partir de octubre de 2010 hasta mediados de 2011.
+                        Hay una historia con episodios de dos partes en esta temporada (<strong>"Amor Loco"</strong> y <strong>"Amor Peligroso"</strong>), el cual da el debut de <strong>El Lich</strong>, 
+                        y la presentación de la Dulce Princesa de 13 años.</p>
                 </div>
             </article>
             <article>
                 <div>
-                    <a href="imagenes/tempo/temp3.jpg" data-lightbox="socotroco" data-title="My caption"><img src="imagenes/tempo/temp3.jpg" alt="Dulce Princesa" class="tempos"></a>
+                    <a href="imagenes/tempo/temp3.jpg" data-lightbox="socotroco" data-title="Temporada 3"><img src="imagenes/tempo/temp3.jpg" alt="Dulce Princesa" class="tempos"></a>
                 </div>
                 <div>
                     <h2>Temporada 3</h2>
-                    <p>La tercera miniserie de Hora de Aventura, “Elementos”, explica lo que sucedió a los reinos de Ooo mientras Finn, Jake, BMO y Susana estuvieron lejos en el mar durante los acontecimientos de Islas.</p>
+                    <p>Consta de <strong>26 episodios</strong>. Hay una historia con episodios de dos partes en esta temporada: 
+                        <strong>"Secretos Navideños, Primera Parte y Segunda Parte"</strong>, como un especial navideño estrenado 
+                        en diciembre de 2011, el cual revela ciertos detalles sobre la historia de cierto personaje.</p>
                 </div>
             </article>
             <article>
                 <div>
-                    <a href="imagenes/tempo/temp4.jpg" data-lightbox="socotroco" data-title="My caption"><img src="imagenes/tempo/temp4.jpg" alt="Dulce Princesa" class="tempos"></a>
+                    <a href="imagenes/tempo/temp4.jpg" data-lightbox="socotroco" data-title="Temporada 4"><img src="imagenes/tempo/temp4.jpg" alt="Dulce Princesa" class="tempos"></a>
                 </div>
                 <div>
                     <h2>Temporada 4</h2>
-                    <p>Consta de 26 episodios, transmitidos desde abril hasta octubre de 2012. En esta temporada se destaca el estreno del episodio #100 de la serie, “Punto de Ignición”.</p>
+                    <p>Consta de <strong>26 episodios</strong>. Se transmitió originalmente desde abril de 2012 hasta septiembre de 2012.
+                        En la temporada se vio el estreno de el <strong>episodio #100</strong> de la serie, "Punto de Ignición".
+                    </p>
                 </div>
             </article>
             <article>
                 <div>
-                    <a href="imagenes/tempo/temp5.jpg" data-lightbox="socotroco" data-title="My caption"><img src="imagenes/tempo/temp5.jpg" alt="Dulce Princesa" class="tempos"></a>
+                    <a href="imagenes/tempo/temp5.jpg" data-lightbox="socotroco" data-title="Temporada 5"><img src="imagenes/tempo/temp5.jpg" alt="Dulce Princesa" class="tempos"></a>
                 </div>
                 <div>
                     <h2>Temporada 5</h2>
-                    <p>Consta de 52 episodios, transmitidos desde noviembre de 2012 hasta marzo de 2014. En esta temporada destaca el estreno de la primer mini-serie titulada “Estacas”, centrada en Marceline.</p>
+                    <p>Consta de <strong>52 episodios</strong>. Se transmitió originalmente desde noviembre de 2012 hasta marzo de 2014.<br> 
+                        En esta temporada destaca varios hechos. Los Hijos de Arcoiris y Jake nacieron en el episodio <strong>"Jake el Papá"</strong>, 
+                        la Princesa Flama se convirtió en Reina en <strong>"Tierra y Agua"</strong>, se estrenó la segunda parte de Fionna y Cake titulada 
+                        <strong>"Muchachito Malo"</strong> donde finalmente Marshall Lee debutó,</p>
                 </div>
             </article>
             <article>
                 <div>
-                    <a href="imagenes/tempo/temp6.jpg" data-lightbox="socotroco" data-title="My caption"><img src="imagenes/tempo/temp6.jpg" alt="Dulce Princesa" class="tempos"></a>
+                    <a href="imagenes/tempo/temp6.jpg" data-lightbox="socotroco" data-title="Temporada 6"><img src="imagenes/tempo/temp6.jpg" alt="Dulce Princesa" class="tempos"></a>
                 </div>
                 <div>
                     <h2>Temporada 6</h2>
-                    <p>Esta temporada sigue las aventuras de Finn y Jake en la Tierra post-apocalíptica de Ooo.</p>
+                    <p>Consta de <strong>43 episodios</strong>. Se transmitió originalmente desde abril de 2014 hasta junio de 2015.
+                        La temporada se estrenó con un episodio de dos partes que fueron <strong>"Despierta"</strong> y <strong>"Escape en la Ciudadela"</strong> el 21 
+                        de abril de 2014. Ambos episodios fueron vistos por 3.321.000 espectadores en los Estados Unidos y obtuvo un 
+                        0,7 en ratings en el rango de 18-49 años de edad.
+                    </p>
                 </div>
             </article>
             <article>
                 <div>
-                    <a href="imagenes/tempo/temp7.jpg" data-lightbox="socotroco" data-title="My caption"><img src="imagenes/tempo/temp7.jpg" alt="Dulce Princesa" class="tempos"></a>
+                    <a href="imagenes/tempo/temp7.jpg" data-lightbox="socotroco" data-title="Temporada 7"><img src="imagenes/tempo/temp7.jpg" alt="Dulce Princesa" class="tempos"></a>
                 </div>
                 <div>
                     <h2>Temporada 7</h2>
-                    <p>Consta de 26 episodios, transmitidos desde noviembre de 2015 hasta julio de 2016. Esta temporada destaca el estreno de la primer mini-serie titulada “Estacas”, centrada en Marceline.</p>
+                    <p>Consta de <strong>26 episodios</strong>. Se emitió originalmente desde noviembre de 2015 hasta julio de 2016.
+                        Esta temporada destaca el estreno de la primer <strong>mini-serie</strong> titulada <strong>"Estacas"</strong>, que constó de 8 episodios y
+                        la cual es centrada en Marceline.
+                    </p>
                 </div>
             </article>
             <article>
                 <div>
-                    <a href="imagenes/tempo/temp8.jpg" data-lightbox="socotroco" data-title="My caption"><img src="imagenes/tempo/temp8.jpg" alt="Dulce Princesa" class="tempos"></a>
+                    <a href="imagenes/tempo/temp8.jpg" data-lightbox="socotroco" data-title="Temporada 8"><img src="imagenes/tempo/temp8.jpg" alt="Dulce Princesa" class="tempos"></a>
                 </div>
                 <div>
                     <h2>Temporada 8</h2>
-                    <p>En esta temporada, una nave misteriosa invade la Tierra Ooo, y Finn piensa que en ésta podría encontrar las respuestas que tanto ha estado buscando.</p>
+                    <p>Consta de <strong>27 episodios</strong>. Se emitió originalmente desde marzo de 2016 hasta febrero de 2017.
+                        Dentro de esta temporada, se abordan viejos temas de interés dentro de la serie, sobretodo, el de los humanos, 
+                        tal y como fue visto en la segunda <strong>mini-serie</strong> titulada <strong>"Islas"</strong>, que constó de 8 episodios y se centró en la 
+                        búsqueda de Finn por encontrar a su madre y resolver otras incógnitas.
+                    </p>
                 </div>
             </article>
             <article>
                 <div>
-                    <a href="imagenes/tempo/temp9.jpg" data-lightbox="socotroco" data-title="My caption"><img src="imagenes/tempo/temp9.jpg" alt="Dulce Princesa" class="tempos"></a>
+                    <a href="imagenes/tempo/temp9.jpg" data-lightbox="socotroco" data-title="Temporada 9"><img src="imagenes/tempo/temp9.jpg" alt="Dulce Princesa" class="tempos"></a>
                 </div>
                 <div>
                     <h2>Temporada 9</h2>
-                    <p>En esta categoría se encuentran todos los episodios e información de la Novena Temporada. Destaca la aparición del objeto perdido que hace que la Dulce Princesa preste nuevamente atención a la creación del Dulce Reino.</p>
+                    <p>Consta de <strong>14 episodios</strong>. Se emitió originalmente desde abril de 2017 hasta julio de 2017. 
+                        La <strong>tercera y última mini-serie</strong> de Hora de Aventura, <strong>"Elementos"</strong>, se estrenó en esta temporada, emitiéndose desde 
+                        el 24 de abril hasta el 27 de abril de 2017. La última parte de Fionna y Cake, "Fionna y Cake y Fionna", se estrenó 
+                        el 19 de julio de 2017.
+                    </p>
                 </div>
             </article>
             <article>
                 <div>
-                    <a href="imagenes/tempo/temp10.jpg" data-lightbox="socotroco" data-title="My caption"><img src="imagenes/tempo/temp10.jpg" alt="Dulce Princesa" class="tempos"></a>
+                    <a href="imagenes/tempo/temp10.jpg" data-lightbox="socotroco" data-title="Temporada 10"><img src="imagenes/tempo/temp10.jpg" alt="Dulce Princesa" class="tempos"></a>
                 </div>
                 <div>
                     <h2>Temporada 10</h2>
-                    <p>La aparición de un objeto perdido hace que la Dulce Princesa preste nuevamente atención a la creación del Dulce Reino. Cuando una vieja llamada avisa sobre un asunto urgente, Tronquitos hace una retrospección sobre su antiguo pasado aventurero hasta su presente tranquilo.</p>
+                    <p>Consta de <strong>14 episodios</strong>. Se emitió originalmente desde septiembre de 2017 hasta septiembre de 2018. 
+                        Esta es la temporada final de Hora de Aventura.<br> Varios sucesos importantes ocurren dentro de esta temporada: se entra 
+                        más a detalle sobre el pasado de la Dulce Princesa, el cumpleaños número 17 de Finn, el pasado aventurero de Tronquitos, 
+                        el origen y verdadera forma de Jake, y la búsqueda de <strong>Betty</strong> por recuperar a <strong>Simon.</strong> Además, 
+                        de una gran <strong>guerra</strong> entre la Dulce Princesa y el <strong>Tío Gumbald</strong>.</p>
                 </div>
             </article>
 
@@ -139,6 +169,19 @@
         </footer>
 
         <script src="js/lightbox-plus-jquery.js"></script>
+        <script type="text/javascript">
+            const nav = document.querySelector("#nav");
+            const abrir = document.querySelector("#abrir");
+            const cerrar = document.querySelector("#cerrar");
+            
+            abrir.addEventListener("click", () => {
+                 nav.classList.add("visible");
+            })
+            cerrar.addEventListener("click", () => {
+                 nav.classList.remove("visible");
+            })
+ 
+         </script>
     </body>
 
 </html>
