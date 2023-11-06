@@ -77,25 +77,29 @@ section{
 }
 section form {
     position: relative;
-    text-align: center;
+    text-align: left;
     display: inline-block;
     padding: 10% 25%;
     width: 100%;
 }
 form label{
     color: #ffffff;
-    font-size: 25px;
+    font-size: 38px;
+    -webkit-text-stroke: 1px black;
 }
 form label, input, textarea{
     display: block;
     margin: 10px 0;
     width: 100%;
-    font-size: 25px;
+    
     font-family: 'Averia Sans Libre', sans-serif;
+    
 }
 form input, textarea{
     border: 0.3vw solid rgb(255, 255, 255);
     background-color: #00000069;
+    color: #ffffff;
+    font-size: 20px;
 }
 form input[type = "submit"]{
     border: 0.3vw solid rgb(255, 255, 255);

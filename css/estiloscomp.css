@@ -132,6 +132,10 @@ footer img {
     height: 50px;
     margin: 0 10px; 
 }
+.fiocake{
+    width: 300px;
+    height: 375px;
+}
 
 
 @media screen and (max-width: 480px){
